@@ -56,15 +56,15 @@ body {
     font-weight: inherit;
 }
 
-.reveal .slides{
+.reveal .backgrounds{
     /* スライドの周りに線を置きたい */
-    /* border: 50px solid; */
-    /* border-image-source: url(/home/mochi/Documents/recognication_認知科学特論/recog_0619/border.svg); */
-    /* width: 30vw;
-    height: 30vw; */
-    border-image-slice: 170;
-    border-left : solid 20px #0091ff ;
-    border-bottom : solid 2px #0091ff ;
+    /* border-image-source: url(../img/DNA_Sequence_Flat_Icon_Vector.svg);
+    border-image-slice: 13.85% 100%; */
+    border-image-source: url(../img/dna_seq.svg);
+    border-image-slice: 5% 100%;
+    border-image-repeat: round;
+    border-left : 10vw solid;
+    /* border-bottom : solid 2px #0091ff ; */
 }
 
 /*********************************************
